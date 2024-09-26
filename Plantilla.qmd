@@ -1,6 +1,6 @@
 ---
 title: "Proyecto Gestión Financiera"
-author: "Emilia HJaas"
+author: "Emilia Haas"
 format: html
 editor: visual
 bibliography: references.bib
@@ -46,7 +46,11 @@ Se utiliza una matriz binomial para analizar los posibles futuros valores del pr
 
 0.171465​ 4333.3585​ 4283.3585​[​]{.underline}
 
-En la primera fila, se puede ver en el primer cuadrante el precio del bono en negativo, porque eso es lo que en el primer día debería el inversionista si compra el bono. En segundo cuadrante se ve a su vez lo que debería el comprador si compra el activo subyacente, y en tercer lugar se ve si el precio del activo inicialmente.En la segunda fila se aprecia el escenario positivo o up, de la acción. Representa un escenario positivo, es decir que el precio de la acción aumente.  En primer lugar se ve el valor del bono, que al ser una tasa libre de riesgo no se va a ver modificado en el escenario positivo o negativo. En segundo lugar, se ve el precio del activo subyacente en un escenario positivo. En tercer lugar se aprecia el precio del valor de la opción, que en este caso es positiva, y se observa una ganancia, ya que el precio de la acción es mayor al precio de ejercicio. En la tercera fila se observa el escenario negativo, o down. Donde en primer lugar se observa el precio del bono , el cual se mantiene constante debido a la tasa libre de riesgo como se dijo anteriormente. En segundo lugar se ve el escenario negativo en el precio del activo subyacente, pero aunque baja el precio, sigue siendo este mayor al valor del precio de ejercicio de la opción.  En tercer lugar, se ve el valor de la opción en un escenario negativo, donde a pesar de esto sigue siendo mayor al valor de la opción del precio de ejercicio. Se puede concluir que en escenarios tanto positivos como negativos la opción de compra significa una ganancia a la hora de invertir. Donde la opción entregará una ganancia mucho más significativa en comparación al bono.
+En la primera fila, se puede ver en el primer cuadrante el precio del bono en negativo, porque eso es lo que en el primer día debería el inversionista si compra el bono. En segundo cuadrante se ve a su vez lo que debería el comprador si compra el activo subyacente, y en tercer lugar se ve si el precio del activo inicialmente.
+
+En la segunda fila se aprecia el escenario positivo o up, de la acción. Representa un escenario positivo, es decir que el precio de la acción aumente.  En primer lugar se ve el valor del bono, que al ser una tasa libre de riesgo no se va a ver modificado en el escenario positivo o negativo. En segundo lugar, se ve el precio del activo subyacente en un escenario positivo. En tercer lugar se aprecia el precio del valor de la opción, que en este caso es positiva, y se observa una ganancia, ya que el precio de la acción es mayor al precio de ejercicio. 
+
+En la tercera fila se observa el escenario negativo, o down. Donde en primer lugar se observa el precio del bono , el cual se mantiene constante debido a la tasa libre de riesgo como se dijo anteriormente. En segundo lugar se ve el escenario negativo en el precio del activo subyacente, pero aunque baja el precio, sigue siendo este mayor al valor del precio de ejercicio de la opción.  En tercer lugar, se ve el valor de la opción en un escenario negativo, donde a pesar de esto sigue siendo mayor al valor de la opción del precio de ejercicio. Se puede concluir que en escenarios tanto positivos como negativos la opción de compra significa una ganancia a la hora de invertir. Donde la opción entregará una ganancia mucho más significativa en comparación al bono.
 
 **Bibliografía**
 
