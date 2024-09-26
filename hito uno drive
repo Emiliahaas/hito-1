@@ -1,0 +1,48 @@
+
+
+
+
+
+Hito 1
+Gestión Financiera
+
+Profesor:
+Sebastián Cea
+
+Alumna:
+Emilia Haas
+
+
+24 de septiembre de 2024
+Para el presente trabajo se investiga el sector de tarjetas gráficas y de procesamiento para la inteligencia artificial. En la actualidad la inteligencia artificial figura como un tipo de nueva revolución industrial, es algo reciente e innovador, es por eso que el procesamiento de información rápido y eficiente es indispensable. Los microchips (tarjetas gráficas) son un instrumento clave para el desarrolllo de la inteligencia artificial, algunos dicen que actualmente se está viviendo una nueva “Guerra Fría” por estos microchips. Según un artículo publicado por la revista The Economist, Nvidia es la empresa líder que domina el mercado de micro chips. 
+
+Debido a esto se analizará la empresa Nvidia Corporation, que  “es una empresa de software y fabless que diseña unidades de procesamiento de gráficos, interfaz de programación de aplicaciones para ciencia de datos y computación de alto rendimiento”. Según The Economist, “desde enero de 2023, el precio de las acciones del fabricante de chips ha subido en casi un 450 %. Con el valor total de sus acciones que se acerca a los 2 billones de dólares” y probablemente siga aumentando en el futuro, debido a la alta demanda de procesadores de información de alta capacidad para el data science eficientes.
+
+La motivación que surge frente a este mercado y esta empresa es que la compañía Microsoft se asoció con la empresa Black Rock para invertir $100 mil millones de dólares en proyectos de inteligencia artificial, según el diario financiero. Donde Nvidia será la empresa que proveerá todos los micro chips y tarjetas gráficas para este desarrollo. Esto es muy interesante, ya que Microsoft es un gigante tecnológico, Black Rock es la empresa de gestión de inversiones más grande del planeta, y Nvidia es la dominante en el mercado de microchips para la inteligencia artificial. Debido a esto nace mi motivación por investigar cómo se mueven las opciones de Nvidia, ya que gracias a estas millonarias inversiones, el potencial de crecimiento que puede tener la empresa es muy grande. Es por eso que se busca analizar 
+
+Para la realización del hito en primer lugar se establecen los parámetros de la opción estos datos fueron obtenidos a través de la página yahoo finance, donde se buscaron los datos de las opciones de Nvidia. Donde So, significa el precio del activo inicial, en este caso es de 66.31 y donde K representa el precio de ejercicio o strike, en este caso es de 50. 
+
+Por otro lado se establecen los parámetros de la acción Nvidia. Donde se establecen los precios  del escenario positivo (u) como negativo(d). Donde estos se establecen como 66.50 como el escenario up y 65.35 en el escenario down. Estos datos al igual que los anteriores fueron encontrados en la página yahoo finance, y representan los precios más bajos y los precios más altos que obtuvo la opción de Nvidia durante el día 24 de septiembre. Para el caso que observamos se propone una inversión corta de un día para otro, es por eso que se desea analizar de forma a corto plazo. 
+
+Luego se establece un bono, en este caso se utilizaron los datos de un bono “2-Year Yield Future” de la tesorería de Estados Unidos. Este bono lo utilice por varias razones, en primer lugar porque posee una tasa libre de riesgo, lo que elimina la incertidumbre de tasas, por otro lado este bono vence el día 25 de septiembre de 2024, lo que permite tener un panorama general de los dos años que estuvo en el mercado. El valor del bono, 3.5500 se extrajo de Yahoo finance, y la información del bono de la página de la tesorería general de Estados Unidos. Sin embargo, al ser un análisis de un día para otro se utilizó la tasa de retorno overnight y no la del bono, para que el análisis sea más preciso, con un valor de 4,83%. Esta tasa se obtuvo  de la página del Federal reserve bank of New York.
+
+Para el análisis de derivados, se tiene que tener claro que se está utilizando una opción call donde el dueño de la acción tiene la opción de comprar a un cierto precio, pero no la obligación. Si el precio de las acciones aumenta me conviene comprar a 50 (el strike) para generar ganancias. Para realizar esto se utilizó un modelo binomial, el cual permite predecir o valorar el precio de la acción en escenarios futuros. 
+
+Se utiliza una matriz binomial para analizar los posibles futuros valores del precio de la acción. 
+En la primera fila, se puede ver en el primer cuadrante el precio del bono en negativo, porque eso es lo que en el primer día debería el inversionista si compra el bono. En segundo cuadrante se ve a su vez lo que debería el comprador si compra el activo subyacente, y en tercer lugar se ve si el precio del activo inicialmente.
+
+En la segunda fila se aprecia el escenario positivo o up, de la acción. Representa un escenario positivo, es decir que el precio de la acción aumente.  En primer lugar se ve el valor del bono, que al ser una tasa libre de riesgo no se va a ver modificado en el escenario positivo o negativo. En segundo lugar, se ve el precio del activo subyacente en un escenario positivo. En tercer lugar se aprecia el precio del valor de la opción, que en este caso es positiva, y se observa una ganancia, ya que el precio de la acción es mayor al precio de ejercicio. 
+
+En la tercera fila se observa el escenario negativo, o down. Donde en primer lugar se observa el precio del bono , el cual se mantiene constante debido a la tasa libre de riesgo como se dijo anteriormente. En segundo lugar se ve el escenario negativo en el precio del activo subyacente, pero aunque baja el precio, sigue siendo este mayor al valor del precio de ejercicio de la opción.  En tercer lugar, se ve el valor de la opción en un escenario negativo, donde a pesar de esto sigue siendo mayor al valor de la opción del precio de ejercicio. 
+
+Se puede concluir que en escenarios tanto positivos como negativos la opción de compra significa una ganancia a la hora de invertir. Donde la opción entregará una ganancia mucho más significativa en comparación al bono. 
+
+
+
+https://images.nvidia.com/aem-dam/Solutions/homepage/pdf/NVIDIA-Story.pdf
+https://www.economist.com/the-economist-explains/2024/02/27/why-do-nvidias-chips-dominate-the-ai-market?utm_medium=cpc.adword.pd&utm_source=google&ppccampaignID=19495686130&ppcadID=&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gad_source=1&gbraid=0AAAAADf4AbahBCMk9na-1eVsF3nkLaq5C&gclid=CjwKCAjw6c63BhAiEiwAF0EH1FWYUBP-i1EJdTcRHcUqLWekvUQ0iswud2vMXlFU4WDG8JzQHcowDBoCTRgQAvD_BwE&gclsrc=aw.ds
+https://www.lanacion.com.ar/tecnologia/que-son-los-chips-para-inteligencia-artificial-para-que-sirven-y-por-que-atraen-a-los-inversores-nid21072023/
+https://www.df.cl/empresas/multinacionales/blackrock-y-microsoft-se-asocian-para-invertir-us-100-mil-millones-en
+https://finance.yahoo.com/quote/NVDA/options/
+https://finance.yahoo.com/quote/2YY%3DF/
+https://www.newyorkfed.org/markets/reference-rates/sofr
